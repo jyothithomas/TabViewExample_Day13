@@ -14,7 +14,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "icecream"
-        tabBar.badgeValue = String(50)
+        tabBarItem.badgeValue = String(50)
         imgCharacter.image = UIImage(named:"icecream")
     }
 }
