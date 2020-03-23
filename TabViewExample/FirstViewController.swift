@@ -13,9 +13,9 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var imgCharacter: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "icecream"
+        self.title = "gorilla"
         tabBarItem.badgeValue = String(50)
-        imgCharacter.image = UIImage(named:"icecream")
+        imgCharacter.image = UIImage(named:"gorilla")
     }
 }
 
